@@ -18,7 +18,7 @@ puts 24 * 365 * 10 * 60 # Multiplication of hours in a day, days in a year, deca
 puts (Time.now - Time.new(1996, 9, 4)) / 1 # Subtraction of two Time objects and division by 1 to get seconds
 
 # If I am 1406 million seconds old, how old am I?
-puts 1406_000_000 / (60 * 60 * 24 * 365) # Division of seconds by seconds in a year to get age in years
+puts 1_406_000_000 / (60 * 60 * 24 * 365) # Division of seconds by seconds in a year to get age in years
 
 # Explanation:
 # The code divides the total number of seconds (1406 million) by the number of seconds in a year (60 * 60 * 24 * 365).
