@@ -5,8 +5,8 @@ puts 2.0 * 3.0 # Multiplication of two floating-point numbers
 puts 5.0 - 8.0 # Subtraction of two floating-point numbers
 puts 9.0 / 2.0 # Division of two floating-point numbers
 
-puts 5 * (12-8) + -15 # Order of operations with parentheses and negative number
-puts 98 + (59872 / (13*8)) * -52 # Division and multiplication with parentheses and negative number
+puts 5 * (12 - 8) + -15 # Order of operations with parentheses and negative number
+puts 98 + (59_872 / (13 * 8)) * -52 # Division and multiplication with parentheses and negative number
 
 # How many hours are in a year?
 puts 24 * 365 # Multiplication of hours in a day and days in a year
