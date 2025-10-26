@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts 1.0 + 2.0 # Addition of two floating-point numbers
 puts 2.0 * 3.0 # Multiplication of two floating-point numbers
 puts 5.0 - 8.0 # Subtraction of two floating-point numbers
